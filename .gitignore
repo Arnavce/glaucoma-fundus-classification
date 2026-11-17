@@ -1,0 +1,48 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.kaggle/
+kaggle.json
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Data and downloads
+data/
+datasets/
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.crdownload
+*.download
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+
+# Model outputs and generated documents
+**/results*/
+**/repeats/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.docx
+*.log
+
+# Local Python and editor files
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/

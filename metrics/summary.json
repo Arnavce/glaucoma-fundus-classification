@@ -1,0 +1,192 @@
+{
+  "standard": {
+    "42": {
+      "acrima_accuracy": 0.9528301886792453,
+      "acrima_auroc": 0.9891813919942302,
+      "sensitivity": 0.9661016949152542,
+      "specificity": 0.9361702127659575,
+      "confusion_matrix": [
+        [
+          44,
+          3
+        ],
+        [
+          2,
+          57
+        ]
+      ],
+      "parameters": 24922,
+      "external": {
+        "DRISHTI-GS": {
+          "auroc": 0.5700460829493087,
+          "balanced_accuracy": 0.5161290322580645
+        },
+        "RIM-ONE DL r3": {
+          "auroc": 0.2690045248868778,
+          "balanced_accuracy": 0.5058823529411764
+        },
+        "ORIGA": {
+          "auroc": 0.4944057498518079,
+          "balanced_accuracy": 0.4900587828492393
+        }
+      }
+    },
+    "43": {
+      "acrima_accuracy": 0.9150943396226415,
+      "acrima_auroc": 0.9862964298593582,
+      "sensitivity": 0.9322033898305084,
+      "specificity": 0.8936170212765957,
+      "confusion_matrix": [
+        [
+          42,
+          5
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "parameters": 24922,
+      "external": {
+        "DRISHTI-GS": {
+          "auroc": 0.56036866359447,
+          "balanced_accuracy": 0.532258064516129
+        },
+        "RIM-ONE DL r3": {
+          "auroc": 0.28834841628959273,
+          "balanced_accuracy": 0.5058823529411764
+        },
+        "ORIGA": {
+          "auroc": 0.49619640387275243,
+          "balanced_accuracy": 0.5022599288678127
+        }
+      }
+    },
+    "44": {
+      "acrima_accuracy": 0.8773584905660378,
+      "acrima_auroc": 0.994230075730256,
+      "sensitivity": 0.7796610169491526,
+      "specificity": 1.0,
+      "confusion_matrix": [
+        [
+          47,
+          0
+        ],
+        [
+          13,
+          46
+        ]
+      ],
+      "parameters": 24922,
+      "external": {
+        "DRISHTI-GS": {
+          "auroc": 0.5571428571428572,
+          "balanced_accuracy": 0.502073732718894
+        },
+        "RIM-ONE DL r3": {
+          "auroc": 0.2613122171945701,
+          "balanced_accuracy": 0.5058823529411764
+        },
+        "ORIGA": {
+          "auroc": 0.48447688203912276,
+          "balanced_accuracy": 0.5193761114404268
+        }
+      }
+    }
+  },
+  "small": {
+    "42": {
+      "acrima_accuracy": 0.9528301886792453,
+      "acrima_auroc": 0.985935809592499,
+      "sensitivity": 0.9322033898305084,
+      "specificity": 0.9787234042553191,
+      "confusion_matrix": [
+        [
+          46,
+          1
+        ],
+        [
+          4,
+          55
+        ]
+      ],
+      "parameters": 4517,
+      "external": {
+        "DRISHTI-GS": {
+          "auroc": 0.5622119815668203,
+          "balanced_accuracy": 0.5269585253456222
+        },
+        "RIM-ONE DL r3": {
+          "auroc": 0.293212669683258,
+          "balanced_accuracy": 0.5058823529411764
+        },
+        "ORIGA": {
+          "auroc": 0.4843163406441415,
+          "balanced_accuracy": 0.49346720015807155
+        }
+      }
+    },
+    "43": {
+      "acrima_accuracy": 0.9245283018867925,
+      "acrima_auroc": 0.9873782906599351,
+      "sensitivity": 0.9830508474576272,
+      "specificity": 0.851063829787234,
+      "confusion_matrix": [
+        [
+          40,
+          7
+        ],
+        [
+          1,
+          58
+        ]
+      ],
+      "parameters": 4517,
+      "external": {
+        "DRISHTI-GS": {
+          "auroc": 0.5580645161290323,
+          "balanced_accuracy": 0.5161290322580645
+        },
+        "RIM-ONE DL r3": {
+          "auroc": 0.2501131221719457,
+          "balanced_accuracy": 0.5058823529411764
+        },
+        "ORIGA": {
+          "auroc": 0.48749012052953966,
+          "balanced_accuracy": 0.49021932424422054
+        }
+      }
+    },
+    "44": {
+      "acrima_accuracy": 0.9339622641509434,
+      "acrima_auroc": 0.9844933285250631,
+      "sensitivity": 0.8813559322033898,
+      "specificity": 1.0,
+      "confusion_matrix": [
+        [
+          47,
+          0
+        ],
+        [
+          7,
+          52
+        ]
+      ],
+      "parameters": 4517,
+      "external": {
+        "DRISHTI-GS": {
+          "auroc": 0.5317972350230415,
+          "balanced_accuracy": 0.4806451612903226
+        },
+        "RIM-ONE DL r3": {
+          "auroc": 0.3065610859728507,
+          "balanced_accuracy": 0.5058823529411764
+        },
+        "ORIGA": {
+          "auroc": 0.4707752914443786,
+          "balanced_accuracy": 0.521673088322466
+        }
+      }
+    }
+  }
+}
